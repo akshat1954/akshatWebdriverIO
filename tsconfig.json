@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+  
+    "target": "ES2022",                       
+    "module": "ESNext",                       
+    "strict": true,                           
+    "moduleResolution": "node",             
+   
+    "types": [
+      "node",
+      "@wdio/globals/types",
+      "@wdio/jasmine-framework"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,                    
+    "forceConsistentCasingInFileNames": true  
+  }
+}
